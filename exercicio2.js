@@ -4,6 +4,7 @@ n1 = parseFloat(prompt('Nota da prova 1: '));
 n2 = parseFloat(prompt('Nota da prova 2: '));
 nOPT = prompt('Nota da optativa: ');
 media = (n1 + n2 + nOPT) / 3;
+// preciso refazer este documento
 if (media >= 6.0) {
     console.log('Aprovado!')
 } 
