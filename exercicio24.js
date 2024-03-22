@@ -15,7 +15,7 @@ if((n1 >= 0) & (n1 <= 10) & (n2 >= 0) & (n2 <= 10)){
 }else{
     console.log ('nota inválida');
 }
-S_N = prompt('Deseja executar novamente? (S/N)');
+S_N = parseInt(prompt('Deseja executar novamente? (S/N)'));
 switch (S_N){
     case 1:
         n1 = parseInt(prompt('digite a primeira nota: '));
